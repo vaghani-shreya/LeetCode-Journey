@@ -64,3 +64,17 @@ class Solution {
 
     }
 }
+
+/* Explanation 
+If you sort the array strs = ["flower", "flow", "flight"] using Arrays.sort(strs), the elements will be sorted in lexicographical order (dictionary order).
+
+Sorted Array:
+["flight", "flow", "flower"]
+
+Lexicographical Order:
+
+Strings are compared character by character.
+The first differing character determines the order.
+If one string is a prefix of another, the shorter string comes first.
+
+*/
